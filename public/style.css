@@ -1,0 +1,30 @@
+body{
+    overflow: hidden;
+}
+h1#heading{
+    font-size: 30px;
+}
+div#chat-box{
+    height: 70vh;
+}
+@media screen and (max-width: 767px){
+    /*for small screen devices like phones and tablets*/
+
+    form#form{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }       
+    div#chat-box{
+        height: 63vh;
+    }
+    ul#list{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 330px){
+    div.small-col{
+        padding: 5px;
+    }
+}
